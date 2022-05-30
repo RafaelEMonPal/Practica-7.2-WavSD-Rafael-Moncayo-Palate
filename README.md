@@ -67,3 +67,6 @@ Serial.print("eof_speech "); Serial.println(info);
 }
 
 ```
+## Explicació de la pràctica
+
+El codi comença declarant els pins per on volem que ens entri el lector de SD, i els pins I2S de l'altaveu. Es declara un objecte audio i el setup el que ens fa és dir-li a la SD que busqui un fitxer anomenat "Ensoniq-ZR-76-01-Dope-77.wav" amb la funció:"**audio.connecttoFS**" i després que la tregui per els pins I2S de sortida.
